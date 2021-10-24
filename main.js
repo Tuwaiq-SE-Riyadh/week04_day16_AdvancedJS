@@ -1,0 +1,16 @@
+function PrintName(str){
+    console.log(str);
+}
+
+// Arrow function
+PrintName = (str) => console.log(str)
+
+
+// current time
+let myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+  var t = d.toLocaleTimeString();
+  document.getElementById("h1").innerHTML = t;
+}
