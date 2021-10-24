@@ -13,5 +13,5 @@
 - Create a webpage that always displays the current time.
 - The time should be updated every second.
 
-<i>Hint: user setInterval</i> 
+<i>Hint: use setInterval</i> 
 
