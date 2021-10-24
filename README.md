@@ -1,17 +1,5 @@
 # Advanced JavaSript Lab
 
 ## Arrow function 
-
-### Part 1:
-- Create function called `PrintName`.
-- The function should receive string argument and print the string to the console.
-
-### Part 2:
-- convert `PrintName` function into an arrow function 
-
 ## Timing Events  
-- Create a webpage that always displays the current time.
-- The time should be updated every second.
-
-<i>Hint: use setInterval</i> 
-
+![ezgif-2-8d4f344afba8](https://user-images.githubusercontent.com/72529306/138604745-ca858347-28e7-4fba-a3cd-9c909adf115a.gif)
