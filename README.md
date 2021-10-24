@@ -1,4 +1,4 @@
-# week04_day16_AdvancedJS
+# Advanced JavaSript Lab
 
 ## Arrow function 
 
