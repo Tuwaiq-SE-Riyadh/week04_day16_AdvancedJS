@@ -1,24 +1,19 @@
 function printName(fristname){
    return (fristname)
 }
-print();
+printName();
 
 //arrowfunction
-let printName=(fristname)=>fristname
+// let printName=(fristname)=>fristname
   
+// printName();
 
 
+//display time
 function displayTime(){
-   setInterval(function(){
-   // var today =new Date();
-
-let hour=today.getHours()>12 ? today.getHours()-12:today.getHours()
-let minut=today.getMinutes()
-let seconds=today.getSeconds()
-   
-   var output=hour+":"+minut+":"+":"+seconds
-   document.write(output);
-},11000);
-
+   let currentDateTime=new Date();
+   document.querySelector("#time").innerHTML=(currentDateTime)
 }
-displayTime()
+   
+   setInterval(displayTime,1000)
+
